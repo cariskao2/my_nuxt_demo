@@ -6,6 +6,9 @@ export default {
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
+  router: {
+    base: '/my_nuxt_demo/'
+  },
   head: {
     title: 'nuxt_demo',
     htmlAttrs: {
@@ -27,22 +30,22 @@ export default {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
+      href: '/my_nuxt_demo/favicon.ico'
     }],
     script: [{
-      src: "/js/jquery.min.js",
+      src: "/my_nuxt_demo/js/jquery.min.js",
       body: true
     }, {
-      src: "/js/browser.min.js",
+      src: "/my_nuxt_demo/js/browser.min.js",
       body: true
     }, {
-      src: "/js/breakpoints.min.js",
+      src: "/my_nuxt_demo/js/breakpoints.min.js",
       body: true
     }, {
-      src: "/js/util.js",
+      src: "/my_nuxt_demo/js/util.js",
       body: true
     }, {
-      src: "/js/main.js",
+      src: "/my_nuxt_demo/js/main.js",
       body: true
     }]
   },
